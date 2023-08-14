@@ -20,6 +20,9 @@ const NavbarComponent: FC<NavbarComponentProps> = ({}) => {
           <Link to="/counter">Counter</Link>
         </li>
         <li className="text-2xl font-semibold">
+          <Link to="/joblist">Jobs</Link>
+        </li>
+        <li className="text-2xl font-semibold">
           <Link to="/fetch">Fetch</Link>
         </li>
       </ul>

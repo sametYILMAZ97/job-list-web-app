@@ -4,6 +4,7 @@ import AboutPage from '@/pages/about.page';
 import StackPage from '@/pages/stack.page';
 import NotFoundPage from '@/pages/404.page';
 import CounterPage from '@/pages/counter.page';
+import JobListPage from '@/pages/joblist.page';
 import FetchPage from '@/pages/fetch.page';
 
 export const routes = [
@@ -15,6 +16,7 @@ export const routes = [
       { path: '/about', element: <AboutPage /> },
       { path: '/stack', element: <StackPage /> },
       { path: '/counter', element: <CounterPage /> },
+      { path: '/joblist', element: <JobListPage /> },
       { path: '/fetch', element: <FetchPage /> },
       { path: '*', element: <NotFoundPage /> },
     ],
